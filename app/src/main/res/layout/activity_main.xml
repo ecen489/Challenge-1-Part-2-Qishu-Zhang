@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/title_txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pull Pictures from SQLite"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/capture_pic_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Take A Pic"/>
+
+    <EditText
+        android:id="@+id/enter_ID_editTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Picture ID"
+        android:layout_margin="5dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/find_img_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Display Pic at ID"/>
+
+    <ImageView
+        android:id="@+id/show_img_imgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>
